@@ -1,0 +1,36 @@
+﻿.media-img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.media-img:hover {
+    transform: scale(1.1);
+}
+
+.media-img-wrapper {
+    width: 200px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.page-selection{
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1023)
+{
+    .media {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper {
+        width: 100%;
+        height: auto;
+    }
+   
+}
