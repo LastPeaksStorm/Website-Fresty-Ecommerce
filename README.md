@@ -1,5 +1,5 @@
 # FrestyEcommerce
-Website with E-Commerce marketplace and payment service.
+Website with throughout functional E-Commerce marketplace and payment service.
 ## Structure:
 #### E-Commerce Features:
 ##### Search, pagination, ware list and details page, scrolloading, categories, user data and profile, special products, shopping cart (local & database), orders...
